@@ -25,8 +25,11 @@
             margin-bottom: 40px;
         }
         .button {
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 200px;
+            height: 55px;
             padding: 15px 25px;
             margin: 10px auto;
             font-size: 1em;
@@ -36,6 +39,7 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s;
+            text-align: center;
         }
         .button:hover {
             background-color: #005bb5;
@@ -43,12 +47,10 @@
         .button.black {
             background-color: #000;
             color: white;
+            font-size: 0.9em;
         }
         .button.black:hover {
             background-color: #333;
-        }
-        .button.black span {
-            font-size: 0.9em;
         }
     </style>
 </head>
@@ -59,7 +61,7 @@
 
         <!-- Кнопки с ссылками на другие сайты -->
         <a href="https://museumwolfenbuettel.github.io/BuergerMuseumStart/" class="button">Deutsch</a>
-        <a href="https://museumwolfenbuettel.github.io/leichte_sprache/" class="button black">Deutsch<br><span>(Leichte Sprache)</span></a>
+        <a href="https://museumwolfenbuettel.github.io/leichte_sprache/" class="button black">Deutsch (Leichte Sprache)</a>
         <a href="https://museumwolfenbuettel.github.io/for_visitors/" class="button">English</a>
         <a href="https://museumwolfenbuettel.github.io/espanol/" class="button">Español</a>
     </div>
